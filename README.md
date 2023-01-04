@@ -9,4 +9,5 @@ My Notion : https://www.notion.so/React-649ee33f1f854c25824f44e78b08bf8d
 |01/01|:white_check_mark:|JSX 문법|https://github.com/yangDM9378/react/tree/main/base-app|
 |01/02|:white_check_mark:|내부상태관리 State|https://github.com/yangDM9378/react/tree/main/base-app|
 |01/03|:white_check_mark:|userEffect 생애주기|https://github.com/yangDM9378/react/tree/main/product-app|
+|01/04|:white_check_mark:|마우스 따라 가기|https://github.com/yangDM9378/react/tree/main/product-app|
 
