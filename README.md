@@ -11,4 +11,5 @@ My Notion : https://www.notion.so/React-649ee33f1f854c25824f44e78b08bf8d
 |01/03|:white_check_mark:|userEffect 생애주기|https://github.com/yangDM9378/react/tree/main/product-app|
 |01/04|:white_check_mark:|마우스 따라 가기|https://github.com/yangDM9378/react/tree/main/mouse-app|
 |01/04|:white_check_mark:|중첩객체 상태관리|https://github.com/yangDM9378/react/tree/main/mentor-app|
+|01/05|:white_check_mark:|배열 상태관리|https://github.com/yangDM9378/react/tree/main/mentors-app|
 
