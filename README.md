@@ -15,3 +15,4 @@ My Notion : https://www.notion.so/React-649ee33f1f854c25824f44e78b08bf8d
 |01/05|:white_check_mark:|Reducer 사용|https://github.com/yangDM9378/react/tree/main/reducer-mentors-app|
 |01/06|:white_check_mark:|Immer 사용|https://github.com/yangDM9378/react/tree/main/immer-mentors-app|
 |01/07|:white_check_mark:|Form|https://github.com/yangDM9378/react/tree/main/form-app|
+|01/07|:white_check_mark:|컴포넌트 재사용|https://github.com/yangDM9378/react/tree/main/wrap-app|
