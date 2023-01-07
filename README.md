@@ -18,3 +18,4 @@ My Notion : https://www.notion.so/React-649ee33f1f854c25824f44e78b08bf8d
 |01/07|:white_check_mark:|컴포넌트 재사용|https://github.com/yangDM9378/react/tree/main/wrap-app|
 |01/07|:white_check_mark:|Context 다크 모드|https://github.com/yangDM9378/react/tree/main/theme-app|
 |01/07|:white_check_mark:|성능개선|https://github.com/yangDM9378/react/tree/main/mentors-button-app|
+|01/07|:white_check_mark:|loading & error|https://github.com/yangDM9378/react/tree/main/loading-error-app|
