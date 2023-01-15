@@ -24,3 +24,4 @@ My Notion : https://www.notion.so/React-649ee33f1f854c25824f44e78b08bf8d
 |01/08|:white_check_mark:|router|https://github.com/yangDM9378/react/tree/main/router-app|
 |01/09|:white_check_mark:|router|https://github.com/yangDM9378/react/tree/main/reactquery-app|
 |01/14|:white_check_mark:|firebase활용_homeshopping 만들기|https://github.com/yangDM9378/react/tree/main/homeshopping-app|
+|01/16|:white_check_mark:|firebase활용_homeshopping 만들기|https://github.com/yangDM9378/react/tree/main/homeshopping-app|
