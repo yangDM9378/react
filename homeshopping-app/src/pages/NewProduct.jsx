@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
-import { addNewProduct } from '../api/firebase';
 import { uploadImage } from '../api/uploader';
 import Button from '../components/ui/Button';
+import useProducts from '../hooks/useProducts';
 
 export default function NewProduct() {
   const [product, setProduct] = useState({});
   const [file, setFile] = useState();
   const [isUploading, setIsUploading] = useState(false);
-  const [sucess, setsucess] = useState();
+  const [success, setSuccess] = useState();
+  const { addProduct } = useProducts();
 
   const handleChange = e => {
     const { name, value, files } = e.target;
@@ -24,21 +25,25 @@ export default function NewProduct() {
     setIsUploading(true);
     uploadImage(file)
       .then(url => {
-        console.log(url);
-        // Firebase에 새로운 제품 추가
-        addNewProduct(product, url).then(() => {
-          setsucess('성공적으로 제품 추가');
-          setTimeout(() => {
-            setsucess(null);
-          }, 4000);
-        });
+        addProduct.mutate(
+          { product, url },
+          {
+            onSuccess: () => {
+              // Firebase에 새로운 제품 추가
+              setSuccess('성공적으로 제품 추가');
+              setTimeout(() => {
+                setSuccess(null);
+              }, 4000);
+            },
+          },
+        );
       })
       .finally(() => setIsUploading(false));
   };
   return (
     <section className="w-full text-center">
       <h2 className="text-2xl font-bold my-4">새제품 등록</h2>
-      {{ sucess } && <p className="my-2">{sucess}</p>}
+      {{ success } && <p className="my-2">{success}</p>}
       {file && (
         <img
           className="w-96 mx-auto mb-2"
